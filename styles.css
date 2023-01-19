@@ -1,13 +1,47 @@
 img {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5%;
+    height: 450px;
+    width: 325px;
 }
 .flex-container {
     display:flex;
-    flex-direction: row;
-    padding: 1%
+    background-image: url(noise_lines.jpg);
+    padding: 5% 2.5%;
 }
 .topnav {
-    flex-direction: row;
-    justify-content: space-around;
     display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: baseline;
+
+    padding: 2.5% 3%;
+    font-size: 1.35em;
+}
+.link {
+    padding: 0% 2.5% 0%;
+}
+.niceflex {
+    flex-direction: column;
+}
+#mi {
+    color: #CE2021;
+}
+#health {
+    color: #8CC627;
+}
+#logo {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 1.75em;
+    font-family:'Secular+One', sans-serif;
+}
+#title {
+    font-size: 4em;
+    font-family:'Secular+One', sans-serif;
+}
+#subtitle {
+    font-size: 1.5em;
 }
